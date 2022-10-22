@@ -1,0 +1,19 @@
+{
+  "name": "venia-shop-api",
+  "version": "0.0.1",
+  "description": "Backend API for Venia shop web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damian Dlugosch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.0.0-beta.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^5.0.0-beta.1",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0"
+  }
+}
