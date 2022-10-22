@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const bodyParser = require('body-parser');
+const port = process.env.PORT || 80;
 
 const app = express();
 const corsOptions = {
@@ -23,4 +24,4 @@ app.get('/', async (req, res) => {
 app.get('/api/prd/categories/all', categories.listAll)
 app.get('/api/prd/categories/:category/products/:page', categories.listProducts)
 
-app.listen(80);
+app.listen(port);
