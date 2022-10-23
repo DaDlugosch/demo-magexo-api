@@ -19,7 +19,7 @@ exports.listAll = async function (req, res) {
             children {
                 uid
                 name
-                url_path
+                url_key
                 children {
                     uid
                     name
